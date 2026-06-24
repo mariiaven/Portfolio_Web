@@ -2,6 +2,11 @@
 
 A personal portfolio website built using HTML and CSS to showcase my background, education, skills, and programming projects.
 
+## Screenshot
+
+### Header
+![Header](header.png) 
+
 ## About
 
 This website serves as my online portfolio, presenting my academic background, interests, and projects. It was created as my first web development project and as an opportunity to learn the fundamentals of HTML, CSS, responsive design, and website deployment using GitHub Pages.
