@@ -1,0 +1,173 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jun 24, 2026, 2:54:39 PM
+    Author     : mariavengerska
+*/
+body {
+            font-family: Ariel, sans-serif;
+            background-color: lightgray;
+            margin: 0;
+            text-align: center;
+        }
+
+        header {
+            background-image: 
+                linear-gradient( 
+                rgba(0,0,0,0.5),
+                rgba(0,0,0,0.5)),
+                url("../images/back1.png");
+            background-size: cover;
+            background-position: center;
+           
+            
+            color: white;
+            padding: 30px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .projects, .me, .skill, .contact, .school {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+              width: 60%;
+    max-width: 900px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px lavenderblush;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+            
+        .projects:hover,
+        .me:hover,
+        .skill:hover,
+        .contact:hover,
+        .school:hover{
+        transform: translateY(-8px);
+        box-shadow: 0 10px 25px lavenderblush;}
+        
+        .badges span {
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 20px;
+}
+        
+        
+        html {
+    scroll-behavior: smooth;
+}
+        nav {
+    background-color: gray;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #111;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid white;
+    transition: 0.3s;
+    box-shadow: 0 0 30px rgba(255,255,255,0.3);
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.projects a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.projects a:hover {
+    background-color: #444;
+}
+.me {
+    width: 60%;
+    max-width: 900px;
+}
+
+.me a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.me a:hover {
+    background-color: #444;
+}
+
+.school {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 40px;
+
+    border-bottom: 1px solid lightgray;
+}
+.school a {
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+
+    padding: 10px 20px;
+
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+.school a:hover {
+    background-color: #444;
+}
+
+@media (max-width: 700px) {
+    .project,
+    .me,
+    .skill,
+    .contact,
+    .card {
+        width: 90%;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    header {
+        padding: 30px;
+    }
+}
